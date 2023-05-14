@@ -1,4 +1,5 @@
 aiohttp
+python-qbittorrent
 anytree
 aria2p
 asgiref
