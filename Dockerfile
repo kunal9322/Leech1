@@ -1,5 +1,4 @@
-FROM anasty17/mltb:latest
-
+FROM FROM debian:11
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
 
@@ -11,4 +10,4 @@ RUN apt -qq update --fix-missing && \
 
 COPY . .
 
-CMD ["bash", "start.sh"]
+CMD python3 update.py && python3 -m bot
