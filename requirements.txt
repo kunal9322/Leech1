@@ -3,6 +3,7 @@ python-qbittorrent
 anytree
 aria2p
 asgiref
+qbittorrent-api
 asyncio
 beautifulsoup4
 bencode.py
